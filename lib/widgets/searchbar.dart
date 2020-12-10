@@ -32,8 +32,19 @@ class SearchBar extends StatelessWidget {
           child: Container(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 13),
             width: double.infinity,
-            child: Text('Search destination',
-                style: TextStyle(color: Colors.black87)),
+            child: Row(
+              children: [
+                Icon(Icons.search),
+                SizedBox(width: 10),
+                Text(
+                  'Search destination',
+                  style: TextStyle(
+                    color: Colors.black87,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ],
+            ),
             decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(100),

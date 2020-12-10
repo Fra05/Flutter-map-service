@@ -13,7 +13,7 @@ class SearchDestination extends SearchDelegate<SearchResult> {
   final List<SearchResult> historial;
 
   SearchDestination(this.proximidad, this.historial)
-      : this.searchFieldLabel = 'Buscar...',
+      : this.searchFieldLabel = 'Search...',
         this._trafficService = new TrafficService();
 
   @override

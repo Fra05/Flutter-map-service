@@ -53,7 +53,7 @@ class _MapPageState extends State<MapPage> {
           initialCameraPosition: cameraPosition,
           myLocationEnabled: true,
           myLocationButtonEnabled: false,
-          zoomControlsEnabled: true,
+          zoomControlsEnabled: false,
           onMapCreated: mapBloc.initMapa,
           onCameraMove: (cameraPosition) =>
               mapBloc.add(OnMoveMap(cameraPosition.target)),

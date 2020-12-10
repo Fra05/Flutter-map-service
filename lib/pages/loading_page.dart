@@ -4,8 +4,8 @@ import 'package:permission_handler/permission_handler.dart';
 
 import 'package:mapa_app/helpers/helpers.dart';
 
-import 'package:mapa_app/pages/acceso_gps_page.dart';
-import 'package:mapa_app/pages/mapa_page.dart';
+import 'package:mapa_app/pages/gps_access_page.dart';
+import 'package:mapa_app/pages/map_page.dart';
 
 class LoadingPage extends StatefulWidget {
   @override
